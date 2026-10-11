@@ -340,11 +340,13 @@ class ModelAgent(Agent):
         raise ValueError(kind)
 
     def walk_forward(self, df: pd.DataFrame, feats: list, h: int, kind: str,
-                     tag: str = "", label: str = "abs"):
+                     tag: str = "", label: str = "abs", end_date=None):
         from sklearn.metrics import roc_auc_score
         ycol = {"abs": f"y{h}", "rel": f"yrel{h}", "alpha": f"yalpha{h}"}[label]
         fwdcol = f"ynet{h}"
         dates = np.sort(df["date"].unique())
+        if end_date is not None:
+            dates = dates[dates <= np.datetime64(end_date)]
         folds, preds = [], []
         start = self.cfg.min_train_days
         for si in range(start, len(dates), self.cfg.test_len):

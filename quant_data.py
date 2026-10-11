@@ -365,17 +365,24 @@ def stock_hist_bs(bs_mod, code: str, start: str = "2015-01-01"):
 
 
 def download_all_bs(pool, start: str = "2015-01-01", sleep: float = 0.2,
-                    force: bool = True) -> int:
-    """用 Baostock 批量下载个股(写入与 kline_hist 同一个缓存文件, 下游无感)。"""
+                    force: bool = True, min_start: str = "2015-01-10") -> int:
+    """用 Baostock 批量下载个股(写入与 kline_hist 同一个缓存文件, 下游无感)。
+    force=False 时会跳过已缓存且起点早于 min_start 的文件(避免新旧复权方式混用)。"""
     import baostock as bs
     lg = bs.login()
     if lg.error_code != "0":
         raise RuntimeError(f"baostock 登录失败: {lg.error_msg}")
-    ok, t0 = 0, time.time()
+    ok, skip, t0 = 0, 0, time.time()
     for i, r in pool.iterrows():
         f = CACHE / f"kline_{r['code']}.csv"
         if f.exists() and not force:
-            continue
+            try:
+                d = pd.read_csv(f, parse_dates=["date"], usecols=["date"])
+                if len(d) > 250 and str(d["date"].min().date()) <= min_start:
+                    skip += 1
+                    continue
+            except Exception:                  # noqa: BLE001
+                pass
         code = ("sh." if int(r["mkt"]) == 1 else "sz.") + str(r["code"])
         try:
             df = stock_hist_bs(bs, code, start)
@@ -386,10 +393,12 @@ def download_all_bs(pool, start: str = "2015-01-01", sleep: float = 0.2,
             df.to_csv(f, encoding="utf-8")
             ok += 1
         if (i + 1) % 50 == 0:
-            print(f"   {i+1}/{len(pool)} 成功 {ok} 用时 {time.time()-t0:.0f}s", flush=True)
+            print(f"   {i+1}/{len(pool)} 新下载 {ok} / 跳过 {skip} 用时 {time.time()-t0:.0f}s",
+                  flush=True)
         time.sleep(sleep)
     bs.logout()
-    print(f"   完成 {ok}/{len(pool)}, 用时 {time.time()-t0:.0f}s", flush=True)
+    print(f"   完成 新下载 {ok} / 跳过 {skip} / 共 {len(pool)}, 用时 {time.time()-t0:.0f}s",
+          flush=True)
     return ok
 
 
