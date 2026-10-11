@@ -1,0 +1,415 @@
+{
+  "VolDataAgent": {
+    "n": 5284,
+    "start": "2005-01-04",
+    "end": "2026-10-09",
+    "n_indices": 5
+  },
+  "VolFeatureAgent": {
+    "n_feats": 40,
+    "rows": 5284
+  },
+  "VolLabelAgent": {
+    "5": {
+      "mean_vol": 0.2341,
+      "median_vol": 0.1991,
+      "vol_p10": 0.1026,
+      "vol_p90": 0.4105,
+      "risk_rate": 0.1447
+    },
+    "10": {
+      "mean_vol": 0.2442,
+      "median_vol": 0.2102,
+      "vol_p10": 0.1266,
+      "vol_p90": 0.4119,
+      "risk_rate": 0.2696
+    },
+    "20": {
+      "mean_vol": 0.2494,
+      "median_vol": 0.2177,
+      "vol_p10": 0.1399,
+      "vol_p90": 0.4021,
+      "risk_rate": 0.4248
+    }
+  },
+  "VolEval_R1": {
+    "n_period": 348,
+    "h": 10,
+    "qlike_model": 0.50224,
+    "qlike_base": 0.32828,
+    "qlike_gain": -0.17395,
+    "dm_p": 0.9969,
+    "mse_model": 0.014379,
+    "mse_base": 0.009752,
+    "corr_model": 0.485,
+    "corr_base": 0.6812,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "Valve_R1": {
+    "full": {
+      "mode": "full",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": -0.1436,
+      "ann_ret": -0.0111,
+      "max_dd": -0.6457,
+      "sharpe": 0.085,
+      "calmar": -0.017,
+      "avg_pos": 1.0
+    },
+    "vol": {
+      "mode": "vol",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.0856,
+      "ann_ret": 0.0059,
+      "max_dd": -0.4099,
+      "sharpe": 0.121,
+      "calmar": 0.014,
+      "avg_pos": 0.743
+    },
+    "vol_dir": {
+      "mode": "vol_dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.2074,
+      "ann_ret": 0.0136,
+      "max_dd": -0.4099,
+      "sharpe": 0.165,
+      "calmar": 0.033,
+      "avg_pos": 0.659
+    },
+    "dir": {
+      "mode": "dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.1432,
+      "ann_ret": 0.0097,
+      "max_dd": -0.6457,
+      "sharpe": 0.156,
+      "calmar": 0.015,
+      "avg_pos": 0.761
+    }
+  },
+  "VolCritic_R1": {
+    "verdict": "可信度评级: 低 (QLIKE 改进 -0.17395, DM p=0.9969, 风险 AUC None)",
+    "rank": "低",
+    "issues": [
+      "QLIKE 改进虽然为正(-0.17395), 但 DM 检验 p=0.9969 (>0.10): 与朴素基准的差距不显著",
+      "预测波动率与真实波动率的相关性 0.485 并不高于朴素基准 0.6812 —— 加了模型没变聪明",
+      "有效独立样本 348 个非重叠期; 波动率预测的可检验性远好于方向预测(方向预测几乎没有独立样本)",
+      "波动率阀門把夏普从 0.085 提到 0.121, 回撤从 -64.57% 收窄到 -40.99% —— 有价值"
+    ],
+    "biases": [
+      "单一标的: 只在沪深300 上验证",
+      "杠杆缺失: 仓位上限设为 1.0, 低波动时无法加杠杆, 会低估波动率目标策略的效果",
+      "已实现波动率的度量用日收益标准差, 未包含日内高频信息",
+      "成本按仓位变动 0.10%/次估计, 未含冲击成本",
+      "最终留出集只有一段 (最后 20%), 无法检验抗周期性"
+    ]
+  },
+  "VolEval_R2": {
+    "n_period": 348,
+    "h": 10,
+    "qlike_model": 0.36581,
+    "qlike_base": 0.32828,
+    "qlike_gain": -0.03753,
+    "dm_p": 0.90432,
+    "mse_model": 0.008757,
+    "mse_base": 0.009752,
+    "corr_model": 0.6827,
+    "corr_base": 0.6812,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "Valve_R2": {
+    "full": {
+      "mode": "full",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": -0.1436,
+      "ann_ret": -0.0111,
+      "max_dd": -0.6457,
+      "sharpe": 0.085,
+      "calmar": -0.017,
+      "avg_pos": 1.0
+    },
+    "vol": {
+      "mode": "vol",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.3943,
+      "ann_ret": 0.0242,
+      "max_dd": -0.3408,
+      "sharpe": 0.225,
+      "calmar": 0.071,
+      "avg_pos": 0.744
+    },
+    "vol_dir": {
+      "mode": "vol_dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.5541,
+      "ann_ret": 0.0322,
+      "max_dd": -0.309,
+      "sharpe": 0.286,
+      "calmar": 0.104,
+      "avg_pos": 0.657
+    },
+    "dir": {
+      "mode": "dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.1432,
+      "ann_ret": 0.0097,
+      "max_dd": -0.6457,
+      "sharpe": 0.156,
+      "calmar": 0.015,
+      "avg_pos": 0.761
+    }
+  },
+  "VolCritic_R2": {
+    "verdict": "可信度评级: 低 (QLIKE 改进 -0.03753, DM p=0.90432, 风险 AUC None)",
+    "rank": "低",
+    "issues": [
+      "QLIKE 改进虽然为正(-0.03753), 但 DM 检验 p=0.90432 (>0.10): 与朴素基准的差距不显著",
+      "有效独立样本 348 个非重叠期; 波动率预测的可检验性远好于方向预测(方向预测几乎没有独立样本)",
+      "波动率阀門把夏普从 0.085 提到 0.225, 回撤从 -64.57% 收窄到 -34.08% —— 有价值"
+    ],
+    "biases": [
+      "单一标的: 只在沪深300 上验证",
+      "杠杆缺失: 仓位上限设为 1.0, 低波动时无法加杠杆, 会低估波动率目标策略的效果",
+      "已实现波动率的度量用日收益标准差, 未包含日内高频信息",
+      "成本按仓位变动 0.10%/次估计, 未含冲击成本",
+      "最终留出集只有一段 (最后 20%), 无法检验抗周期性"
+    ]
+  },
+  "VolEval_R3": {
+    "n_period": 348,
+    "h": 10,
+    "qlike_model": 0.51127,
+    "qlike_base": 0.32828,
+    "qlike_gain": -0.18299,
+    "dm_p": 0.99861,
+    "mse_model": 0.012282,
+    "mse_base": 0.009752,
+    "corr_model": 0.5104,
+    "corr_base": 0.6812,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "Valve_R3": {
+    "full": {
+      "mode": "full",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": -0.1436,
+      "ann_ret": -0.0111,
+      "max_dd": -0.6457,
+      "sharpe": 0.085,
+      "calmar": -0.017,
+      "avg_pos": 1.0
+    },
+    "vol": {
+      "mode": "vol",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.0771,
+      "ann_ret": 0.0054,
+      "max_dd": -0.4027,
+      "sharpe": 0.115,
+      "calmar": 0.013,
+      "avg_pos": 0.703
+    },
+    "vol_dir": {
+      "mode": "vol_dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.2017,
+      "ann_ret": 0.0133,
+      "max_dd": -0.4018,
+      "sharpe": 0.163,
+      "calmar": 0.033,
+      "avg_pos": 0.624
+    },
+    "dir": {
+      "mode": "dir",
+      "n_period": 348,
+      "years": 13.92,
+      "total_ret": 0.1432,
+      "ann_ret": 0.0097,
+      "max_dd": -0.6457,
+      "sharpe": 0.156,
+      "calmar": 0.015,
+      "avg_pos": 0.761
+    }
+  },
+  "VolCritic_R3": {
+    "verdict": "可信度评级: 低 (QLIKE 改进 -0.18299, DM p=0.99861, 风险 AUC None)",
+    "rank": "低",
+    "issues": [
+      "QLIKE 改进虽然为正(-0.18299), 但 DM 检验 p=0.99861 (>0.10): 与朴素基准的差距不显著",
+      "预测波动率与真实波动率的相关性 0.5104 并不高于朴素基准 0.6812 —— 加了模型没变聪明",
+      "有效独立样本 348 个非重叠期; 波动率预测的可检验性远好于方向预测(方向预测几乎没有独立样本)",
+      "波动率阀門把夏普从 0.085 提到 0.115, 回撤从 -64.57% 收窄到 -40.27% —— 有价值"
+    ],
+    "biases": [
+      "单一标的: 只在沪深300 上验证",
+      "杠杆缺失: 仓位上限设为 1.0, 低波动时无法加杠杆, 会低估波动率目标策略的效果",
+      "已实现波动率的度量用日收益标准差, 未包含日内高频信息",
+      "成本按仓位变动 0.10%/次估计, 未含冲击成本",
+      "最终留出集只有一段 (最后 20%), 无法检验抗周期性"
+    ]
+  },
+  "VolCritic_R4": {
+    "verdict": "可信度评级: 低 (QLIKE 改进 -, DM p=None, 风险 AUC None)",
+    "rank": "低",
+    "issues": [],
+    "biases": [
+      "单一标的: 只在沪深300 上验证",
+      "杠杆缺失: 仓位上限设为 1.0, 低波动时无法加杠杆, 会低估波动率目标策略的效果",
+      "已实现波动率的度量用日收益标准差, 未包含日内高频信息",
+      "成本按仓位变动 0.10%/次估计, 未含冲击成本",
+      "最终留出集只有一段 (最后 20%), 无法检验抗周期性"
+    ]
+  },
+  "VolCritic_R5": {
+    "verdict": "可信度评级: 低 (QLIKE 改进 -, DM p=None, 风险 AUC None)",
+    "rank": "低",
+    "issues": [],
+    "biases": [
+      "单一标的: 只在沪深300 上验证",
+      "杠杆缺失: 仓位上限设为 1.0, 低波动时无法加杠杆, 会低估波动率目标策略的效果",
+      "已实现波动率的度量用日收益标准差, 未包含日内高频信息",
+      "成本按仓位变动 0.10%/次估计, 未含冲击成本",
+      "最终留出集只有一段 (最后 20%), 无法检验抗周期性"
+    ]
+  },
+  "VolEval_HOLDOUT": {
+    "n_period": 105,
+    "h": 10,
+    "qlike_model": 0.40352,
+    "qlike_base": 0.6779,
+    "qlike_gain": 0.27438,
+    "dm_p": 0.13308,
+    "mse_model": 0.006552,
+    "mse_base": 0.008394,
+    "corr_model": 0.3286,
+    "corr_base": 0.2338,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null,
+    "start": "2022-06-01",
+    "end": "2026-09-16"
+  },
+  "Valve_HOLDOUT": {
+    "full": {
+      "mode": "full",
+      "n_period": 105,
+      "years": 4.2,
+      "total_ret": 0.0875,
+      "ann_ret": 0.0202,
+      "max_dd": -0.292,
+      "sharpe": 0.193,
+      "calmar": 0.069,
+      "avg_pos": 1.0
+    },
+    "vol": {
+      "mode": "vol",
+      "n_period": 105,
+      "years": 4.2,
+      "total_ret": 0.0616,
+      "ann_ret": 0.0143,
+      "max_dd": -0.2846,
+      "sharpe": 0.163,
+      "calmar": 0.05,
+      "avg_pos": 0.819
+    },
+    "vol_dir": {
+      "mode": "vol_dir",
+      "n_period": 105,
+      "years": 4.2,
+      "total_ret": -0.0122,
+      "ann_ret": -0.0029,
+      "max_dd": -0.2605,
+      "sharpe": 0.053,
+      "calmar": -0.011,
+      "avg_pos": 0.717
+    },
+    "dir": {
+      "mode": "dir",
+      "n_period": 105,
+      "years": 4.2,
+      "total_ret": -0.0727,
+      "ann_ret": -0.0178,
+      "max_dd": -0.2171,
+      "sharpe": -0.024,
+      "calmar": -0.082,
+      "avg_pos": 0.733
+    }
+  },
+  "VolEval_EXT_上证指数": {
+    "n_period": 105,
+    "h": 10,
+    "qlike_model": 0.48004,
+    "qlike_base": 0.86593,
+    "qlike_gain": 0.3859,
+    "dm_p": 0.14596,
+    "mse_model": 0.00618,
+    "mse_base": 0.007483,
+    "corr_model": 0.145,
+    "corr_base": 0.159,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "VolEval_EXT_中证500": {
+    "n_period": 105,
+    "h": 10,
+    "qlike_model": 0.34491,
+    "qlike_base": 0.47547,
+    "qlike_gain": 0.13055,
+    "dm_p": 0.09496,
+    "mse_model": 0.00812,
+    "mse_base": 0.012413,
+    "corr_model": 0.4864,
+    "corr_base": 0.3546,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "VolEval_EXT_创业板指": {
+    "n_period": 105,
+    "h": 10,
+    "qlike_model": 0.38318,
+    "qlike_base": 0.70569,
+    "qlike_gain": 0.32251,
+    "dm_p": 0.09584,
+    "mse_model": 0.017907,
+    "mse_base": 0.027618,
+    "corr_model": 0.4832,
+    "corr_base": 0.3609,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  },
+  "VolEval_EXT_深证成指": {
+    "n_period": 105,
+    "h": 10,
+    "qlike_model": 0.36937,
+    "qlike_base": 0.50965,
+    "qlike_gain": 0.14027,
+    "dm_p": 0.03495,
+    "mse_model": 0.009194,
+    "mse_base": 0.013256,
+    "corr_model": 0.4006,
+    "corr_base": 0.317,
+    "hit_rate_risk": null,
+    "risk_base": null,
+    "risk_auc": null
+  }
+}

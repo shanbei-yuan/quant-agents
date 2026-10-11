@@ -1,0 +1,437 @@
+[
+  {
+    "index": "沪深300",
+    "code": "sh.000300",
+    "h": 5,
+    "dev": {
+      "n": 254,
+      "qlike_model": 0.76196,
+      "qlike_naive": 0.51479,
+      "qlike_har": 0.46994,
+      "gain_naive": -0.24717,
+      "gain_har": -0.29202,
+      "p_naive": 0.99816,
+      "p_har": 0.99872,
+      "corr_model": 0.414,
+      "corr_naive": 0.42
+    },
+    "holdout": {
+      "n": 211,
+      "qlike_model": 0.61536,
+      "qlike_naive": 0.58726,
+      "qlike_har": 0.545,
+      "gain_naive": -0.0281,
+      "gain_har": -0.07036,
+      "p_naive": 0.5881,
+      "p_har": 0.77302,
+      "corr_model": 0.252,
+      "corr_naive": 0.253
+    }
+  },
+  {
+    "index": "沪深300",
+    "code": "sh.000300",
+    "h": 10,
+    "dev": {
+      "n": 127,
+      "qlike_model": 0.48289,
+      "qlike_naive": 0.387,
+      "qlike_har": 0.31577,
+      "gain_naive": -0.09589,
+      "gain_har": -0.16712,
+      "p_naive": 0.92889,
+      "p_har": 0.98212,
+      "corr_model": 0.462,
+      "corr_naive": 0.48
+    },
+    "holdout": {
+      "n": 105,
+      "qlike_model": 0.42755,
+      "qlike_naive": 0.6779,
+      "qlike_har": 0.44499,
+      "gain_naive": 0.25034,
+      "gain_har": 0.01744,
+      "p_naive": 0.09206,
+      "p_har": 0.21023,
+      "corr_model": 0.249,
+      "corr_naive": 0.234
+    }
+  },
+  {
+    "index": "沪深300",
+    "code": "sh.000300",
+    "h": 20,
+    "dev": {
+      "n": 64,
+      "qlike_model": 0.37101,
+      "qlike_naive": 0.39987,
+      "qlike_har": 0.26644,
+      "gain_naive": 0.02886,
+      "gain_har": -0.10457,
+      "p_naive": 0.38448,
+      "p_har": 0.93263,
+      "corr_model": 0.438,
+      "corr_naive": 0.447
+    },
+    "holdout": {
+      "n": 52,
+      "qlike_model": 0.39424,
+      "qlike_naive": 0.71206,
+      "qlike_har": 0.38821,
+      "gain_naive": 0.31782,
+      "gain_har": -0.00602,
+      "p_naive": 0.07119,
+      "p_har": 0.53441,
+      "corr_model": 0.207,
+      "corr_naive": 0.125
+    }
+  },
+  {
+    "index": "上证指数",
+    "code": "sh.000001",
+    "h": 5,
+    "dev": {
+      "n": 254,
+      "qlike_model": 0.74635,
+      "qlike_naive": 0.56176,
+      "qlike_har": 0.50376,
+      "gain_naive": -0.18459,
+      "gain_har": -0.24259,
+      "p_naive": 0.99285,
+      "p_har": 0.99479,
+      "corr_model": 0.422,
+      "corr_naive": 0.404
+    },
+    "holdout": {
+      "n": 211,
+      "qlike_model": 0.66223,
+      "qlike_naive": 0.7165,
+      "qlike_har": 0.61012,
+      "gain_naive": 0.05427,
+      "gain_har": -0.05211,
+      "p_naive": 0.35577,
+      "p_har": 0.69892,
+      "corr_model": 0.242,
+      "corr_naive": 0.176
+    }
+  },
+  {
+    "index": "上证指数",
+    "code": "sh.000001",
+    "h": 10,
+    "dev": {
+      "n": 127,
+      "qlike_model": 0.47964,
+      "qlike_naive": 0.46181,
+      "qlike_har": 0.35619,
+      "gain_naive": -0.01784,
+      "gain_har": -0.12345,
+      "p_naive": 0.61479,
+      "p_har": 0.94596,
+      "corr_model": 0.483,
+      "corr_naive": 0.451
+    },
+    "holdout": {
+      "n": 105,
+      "qlike_model": 0.46318,
+      "qlike_naive": 0.86593,
+      "qlike_har": 0.47285,
+      "gain_naive": 0.40276,
+      "gain_har": 0.00968,
+      "p_naive": 0.10345,
+      "p_har": 0.37279,
+      "corr_model": 0.242,
+      "corr_naive": 0.159
+    }
+  },
+  {
+    "index": "上证指数",
+    "code": "sh.000001",
+    "h": 20,
+    "dev": {
+      "n": 64,
+      "qlike_model": 0.41484,
+      "qlike_naive": 0.46618,
+      "qlike_har": 0.30994,
+      "gain_naive": 0.05134,
+      "gain_har": -0.1049,
+      "p_naive": 0.30727,
+      "p_har": 0.89543,
+      "corr_model": 0.453,
+      "corr_naive": 0.407
+    },
+    "holdout": {
+      "n": 52,
+      "qlike_model": 0.46258,
+      "qlike_naive": 0.91493,
+      "qlike_har": 0.41505,
+      "gain_naive": 0.45235,
+      "gain_har": -0.04753,
+      "p_naive": 0.09881,
+      "p_har": 0.68528,
+      "corr_model": 0.156,
+      "corr_naive": 0.027
+    }
+  },
+  {
+    "index": "中证500",
+    "code": "sh.000905",
+    "h": 5,
+    "dev": {
+      "n": 254,
+      "qlike_model": 0.5532,
+      "qlike_naive": 0.56212,
+      "qlike_har": 0.46796,
+      "gain_naive": 0.00892,
+      "gain_har": -0.08524,
+      "p_naive": 0.41287,
+      "p_har": 0.96342,
+      "corr_model": 0.374,
+      "corr_naive": 0.369
+    },
+    "holdout": {
+      "n": 211,
+      "qlike_model": 0.46397,
+      "qlike_naive": 0.63796,
+      "qlike_har": 0.57245,
+      "gain_naive": 0.17399,
+      "gain_har": 0.10848,
+      "p_naive": 0.0238,
+      "p_har": 0.00802,
+      "corr_model": 0.415,
+      "corr_naive": 0.288
+    }
+  },
+  {
+    "index": "中证500",
+    "code": "sh.000905",
+    "h": 10,
+    "dev": {
+      "n": 127,
+      "qlike_model": 0.45169,
+      "qlike_naive": 0.4963,
+      "qlike_har": 0.3304,
+      "gain_naive": 0.04461,
+      "gain_har": -0.12129,
+      "p_naive": 0.15869,
+      "p_har": 0.97015,
+      "corr_model": 0.348,
+      "corr_naive": 0.366
+    },
+    "holdout": {
+      "n": 105,
+      "qlike_model": 0.33189,
+      "qlike_naive": 0.47547,
+      "qlike_har": 0.39995,
+      "gain_naive": 0.14357,
+      "gain_har": 0.06806,
+      "p_naive": 0.08085,
+      "p_har": 0.05867,
+      "corr_model": 0.44,
+      "corr_naive": 0.355
+    }
+  },
+  {
+    "index": "中证500",
+    "code": "sh.000905",
+    "h": 20,
+    "dev": {
+      "n": 64,
+      "qlike_model": 0.32909,
+      "qlike_naive": 0.44272,
+      "qlike_har": 0.25621,
+      "gain_naive": 0.11364,
+      "gain_har": -0.07288,
+      "p_naive": 0.0387,
+      "p_har": 0.86836,
+      "corr_model": 0.401,
+      "corr_naive": 0.359
+    },
+    "holdout": {
+      "n": 52,
+      "qlike_model": 0.35524,
+      "qlike_naive": 0.53015,
+      "qlike_har": 0.37822,
+      "gain_naive": 0.17491,
+      "gain_har": 0.02298,
+      "p_naive": 0.08132,
+      "p_har": 0.23006,
+      "corr_model": 0.237,
+      "corr_naive": 0.258
+    }
+  },
+  {
+    "index": "创业板指",
+    "code": "sz.399006",
+    "h": 5,
+    "dev": {
+      "n": 191,
+      "qlike_model": 0.57917,
+      "qlike_naive": 0.38502,
+      "qlike_har": 0.40016,
+      "gain_naive": -0.19415,
+      "gain_har": -0.17901,
+      "p_naive": 0.99999,
+      "p_har": 0.99993,
+      "corr_model": 0.368,
+      "corr_naive": 0.404
+    },
+    "holdout": {
+      "n": 158,
+      "qlike_model": 0.58497,
+      "qlike_naive": 0.72503,
+      "qlike_har": 0.64902,
+      "gain_naive": 0.14006,
+      "gain_har": 0.06405,
+      "p_naive": 0.072,
+      "p_har": 0.13406,
+      "corr_model": 0.4,
+      "corr_naive": 0.387
+    }
+  },
+  {
+    "index": "创业板指",
+    "code": "sz.399006",
+    "h": 10,
+    "dev": {
+      "n": 96,
+      "qlike_model": 0.4857,
+      "qlike_naive": 0.26895,
+      "qlike_har": 0.23671,
+      "gain_naive": -0.21675,
+      "gain_har": -0.24899,
+      "p_naive": 0.99954,
+      "p_har": 1.0,
+      "corr_model": 0.277,
+      "corr_naive": 0.463
+    },
+    "holdout": {
+      "n": 79,
+      "qlike_model": 0.92596,
+      "qlike_naive": 1.01551,
+      "qlike_har": 0.84252,
+      "gain_naive": 0.08955,
+      "gain_har": -0.08344,
+      "p_naive": 0.0624,
+      "p_har": 0.65619,
+      "corr_model": 0.339,
+      "corr_naive": 0.257
+    }
+  },
+  {
+    "index": "创业板指",
+    "code": "sz.399006",
+    "h": 20,
+    "dev": {
+      "n": 48,
+      "qlike_model": 0.3828,
+      "qlike_naive": 0.16962,
+      "qlike_har": 0.15999,
+      "gain_naive": -0.21317,
+      "gain_har": -0.2228,
+      "p_naive": 0.99977,
+      "p_har": 0.99998,
+      "corr_model": 0.264,
+      "corr_naive": 0.569
+    },
+    "holdout": {
+      "n": 39,
+      "qlike_model": 0.85133,
+      "qlike_naive": 1.02796,
+      "qlike_har": 0.76219,
+      "gain_naive": 0.17663,
+      "gain_har": -0.08914,
+      "p_naive": 0.00233,
+      "p_har": 0.65587,
+      "corr_model": 0.311,
+      "corr_naive": 0.207
+    }
+  },
+  {
+    "index": "深证成指",
+    "code": "sz.399001",
+    "h": 5,
+    "dev": {
+      "n": 254,
+      "qlike_model": 0.45134,
+      "qlike_naive": 0.47255,
+      "qlike_har": 0.41889,
+      "gain_naive": 0.02121,
+      "gain_har": -0.03246,
+      "p_naive": 0.2633,
+      "p_har": 0.79729,
+      "corr_model": 0.458,
+      "corr_naive": 0.4
+    },
+    "holdout": {
+      "n": 211,
+      "qlike_model": 0.4924,
+      "qlike_naive": 0.57578,
+      "qlike_har": 0.54383,
+      "gain_naive": 0.08338,
+      "gain_har": 0.05142,
+      "p_naive": 0.14282,
+      "p_har": 0.0771,
+      "corr_model": 0.382,
+      "corr_naive": 0.287
+    }
+  },
+  {
+    "index": "深证成指",
+    "code": "sz.399001",
+    "h": 10,
+    "dev": {
+      "n": 127,
+      "qlike_model": 0.30289,
+      "qlike_naive": 0.38372,
+      "qlike_har": 0.28726,
+      "gain_naive": 0.08083,
+      "gain_har": -0.01563,
+      "p_naive": 0.0117,
+      "p_har": 0.69558,
+      "corr_model": 0.488,
+      "corr_naive": 0.423
+    },
+    "holdout": {
+      "n": 105,
+      "qlike_model": 0.37826,
+      "qlike_naive": 0.50965,
+      "qlike_har": 0.41327,
+      "gain_naive": 0.13139,
+      "gain_har": 0.03501,
+      "p_naive": 0.05015,
+      "p_har": 0.04642,
+      "corr_model": 0.337,
+      "corr_naive": 0.317
+    }
+  },
+  {
+    "index": "深证成指",
+    "code": "sz.399001",
+    "h": 20,
+    "dev": {
+      "n": 64,
+      "qlike_model": 0.22523,
+      "qlike_naive": 0.34716,
+      "qlike_har": 0.22221,
+      "gain_naive": 0.12193,
+      "gain_har": -0.00302,
+      "p_naive": 0.01432,
+      "p_har": 0.53288,
+      "corr_model": 0.493,
+      "corr_naive": 0.413
+    },
+    "holdout": {
+      "n": 52,
+      "qlike_model": 0.36742,
+      "qlike_naive": 0.53827,
+      "qlike_har": 0.37489,
+      "gain_naive": 0.17085,
+      "gain_har": 0.00748,
+      "p_naive": 0.03199,
+      "p_har": 0.40467,
+      "corr_model": 0.248,
+      "corr_naive": 0.232
+    }
+  }
+]

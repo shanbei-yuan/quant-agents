@@ -1,0 +1,55 @@
+{"date": "2026-10-11 21:55:32", "round": 1, "kind": "logit", "h": 5, "n_feats": 34, "acc": 0.4884, "base": 0.5083, "auc": 0.4941, "crit_rank": "低"}
+{"date": "2026-10-11 21:55:32", "round": "summary", "kind": "logit", "h": 5, "n_feats": 34, "acc": 0.4884, "base": 0.5083, "auc": 0.4941, "crit_rank": "低", "is_best": true, "best_acc": 0.4884}
+{"date": "2026-10-11 21:57:03", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.4902, "base": 0.5083, "auc": 0.4949, "crit_rank": "低"}
+{"date": "2026-10-11 21:57:09", "round": 2, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.508, "base": 0.5083, "auc": 0.5125, "crit_rank": "低"}
+{"date": "2026-10-11 21:57:14", "round": 3, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5081, "base": 0.5313, "auc": 0.5043, "crit_rank": "低"}
+{"date": "2026-10-11 21:57:19", "round": 4, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5064, "base": 0.5, "auc": 0.516, "crit_rank": "低"}
+{"date": "2026-10-11 21:57:19", "round": "summary", "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5064, "base": 0.5, "auc": 0.516, "crit_rank": "低", "is_best": true, "best_acc": 0.5064}
+{"date": "2026-10-11 22:23:36", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.5115, "base": 0.5071, "auc": 0.5161, "crit_rank": "低"}
+{"date": "2026-10-11 22:24:17", "round": 2, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5265, "base": 0.5072, "auc": 0.5333, "crit_rank": "低"}
+{"date": "2026-10-11 22:24:52", "round": 3, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5246, "base": 0.5042, "auc": 0.5331, "crit_rank": "中"}
+{"date": "2026-10-11 22:25:24", "round": 4, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.511, "base": 0.503, "auc": 0.5156, "crit_rank": "低"}
+{"date": "2026-10-11 22:25:24", "round": "summary", "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5246, "base": 0.5042, "auc": 0.5331, "crit_rank": "中", "is_best": true, "best_acc": 0.5246}
+{"date": "2026-10-11 22:27:38", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.5115, "base": 0.5071, "auc": 0.5161, "crit_rank": "低"}
+{"date": "2026-10-11 22:28:15", "round": 2, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5265, "base": 0.5072, "auc": 0.5333, "crit_rank": "低"}
+{"date": "2026-10-11 22:28:51", "round": 3, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5246, "base": 0.5042, "auc": 0.5331, "crit_rank": "低"}
+{"date": "2026-10-11 22:29:21", "round": 4, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.511, "base": 0.503, "auc": 0.5156, "crit_rank": "低"}
+{"date": "2026-10-11 22:30:14", "round": 5, "kind": "ens", "h": 10, "n_feats": 26, "acc": 0.5244, "base": 0.5042, "auc": 0.5324, "crit_rank": "低"}
+{"date": "2026-10-11 22:30:48", "round": 6, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5225, "base": 0.5014, "auc": 0.5288, "crit_rank": "低"}
+{"date": "2026-10-11 22:30:48", "round": "summary", "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5225, "base": 0.5014, "auc": 0.5288, "crit_rank": "低", "is_best": true, "best_acc": 0.5225}
+{"date": "2026-10-11 22:34:16", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.5115, "base": 0.5071, "auc": 0.5161, "crit_rank": "低"}
+{"date": "2026-10-11 22:34:43", "round": 2, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5265, "base": 0.5072, "auc": 0.5333, "crit_rank": "低"}
+{"date": "2026-10-11 22:35:11", "round": 3, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5246, "base": 0.5042, "auc": 0.5331, "crit_rank": "低"}
+{"date": "2026-10-11 22:35:38", "round": 4, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.511, "base": 0.503, "auc": 0.5156, "crit_rank": "低"}
+{"date": "2026-10-11 22:36:09", "round": 5, "kind": "ens", "h": 10, "n_feats": 26, "acc": 0.5244, "base": 0.5042, "auc": 0.5324, "crit_rank": "低"}
+{"date": "2026-10-11 22:36:43", "round": 6, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5225, "base": 0.5014, "auc": 0.5288, "crit_rank": "低"}
+{"date": "2026-10-11 22:36:44", "round": "summary", "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5225, "base": 0.5014, "auc": 0.5288, "crit_rank": "低", "is_best": true, "best_acc": 0.5225}
+{"date": "2026-10-11 22:46:03", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.4902, "base": 0.5083, "auc": 0.4949, "crit_rank": "低"}
+{"date": "2026-10-11 22:46:03", "round": "summary", "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.4902, "base": 0.5083, "auc": 0.4949, "crit_rank": "低", "is_best": true, "best_acc": 0.4902}
+{"date": "2026-10-11 22:50:27", "round": 1, "phase": "D-指数择时", "kind": "logit", "h": 10, "acc": 0.5213, "base": 0.5334, "edge": -0.0121, "p_value": 0.7907, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:07", "round": 1, "phase": "D-指数择时", "kind": "logit", "h": 10, "acc": 0.5213, "base": 0.5334, "edge": -0.0121, "p_value": 0.7907, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:13", "round": 2, "phase": "D-指数择时", "kind": "hgb", "h": 10, "acc": 0.5308, "base": 0.5334, "edge": -0.0026, "p_value": 0.6069, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:19", "round": 3, "phase": "D-指数择时", "kind": "hgb", "h": 5, "acc": 0.5092, "base": 0.5147, "edge": -0.0055, "p_value": 0.4249, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:25", "round": 4, "phase": "D-指数择时", "kind": "hgb", "h": 20, "acc": 0.5141, "base": 0.5265, "edge": -0.0124, "p_value": 0.7023, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:32", "round": 5, "phase": "D-指数择时", "kind": "ens", "h": 20, "acc": 0.5086, "base": 0.5265, "edge": -0.0178, "p_value": 0.4103, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:38", "round": 6, "phase": "D-指数择时", "kind": "hgb", "h": 20, "acc": 0.5247, "base": 0.5265, "edge": -0.0017, "p_value": 0.1276, "crit_rank": "低"}
+{"date": "2026-10-11 22:52:43", "phase": "D-指数择时", "round": "holdout", "kind": "logit", "h": 10, "acc": 0.4718, "base": 0.5397, "edge": -0.0679, "p_value": 0.9999, "is_holdout": true}
+{"date": "2026-10-11 22:53:56", "round": 1, "phase": "D-指数择时", "kind": "logit", "h": 10, "acc": 0.5213, "base": 0.5334, "edge": -0.0121, "p_value": 0.7907, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:01", "round": 2, "phase": "D-指数择时", "kind": "hgb", "h": 10, "acc": 0.5308, "base": 0.5334, "edge": -0.0026, "p_value": 0.6069, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:09", "round": 3, "phase": "D-指数择时", "kind": "hgb", "h": 5, "acc": 0.5092, "base": 0.5147, "edge": -0.0055, "p_value": 0.4249, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:14", "round": 4, "phase": "D-指数择时", "kind": "hgb", "h": 20, "acc": 0.5141, "base": 0.5265, "edge": -0.0124, "p_value": 0.7023, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:20", "round": 5, "phase": "D-指数择时", "kind": "ens", "h": 20, "acc": 0.5086, "base": 0.5265, "edge": -0.0178, "p_value": 0.4103, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:26", "round": 6, "phase": "D-指数择时", "kind": "hgb", "h": 20, "acc": 0.5247, "base": 0.5265, "edge": -0.0017, "p_value": 0.1276, "crit_rank": "低"}
+{"date": "2026-10-11 22:54:30", "phase": "D-指数择时", "round": "holdout", "kind": "logit", "h": 10, "acc": 0.4718, "base": 0.5397, "edge": -0.0679, "p_value": 0.9999, "is_holdout": true}
+{"date": "2026-10-11 23:16:25", "phase": "C-波动率", "round": 1, "task": "reg", "kind": "ridge", "h": 10, "qlike_gain": -0.21983, "dm_p": 0.99889, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:16:31", "phase": "C-波动率", "round": 2, "task": "reg", "kind": "hgb", "h": 10, "qlike_gain": -0.04419, "dm_p": 0.934, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:16:36", "phase": "C-波动率", "round": 3, "task": "reg", "kind": "hgb", "h": 10, "qlike_gain": -0.1931, "dm_p": 0.99861, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:16:39", "phase": "C-波动率", "round": 4, "task": "cls", "kind": "hgb", "h": 10, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:16:43", "phase": "C-波动率", "round": 5, "task": "cls", "kind": "hgb", "h": 20, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:16:46", "phase": "C-波动率", "round": "holdout", "qlike_gain": 0.27918, "dm_p": 0.12272, "risk_auc": null, "is_holdout": true}
+{"date": "2026-10-11 23:17:31", "phase": "C-波动率", "round": 1, "task": "reg", "kind": "ridge", "h": 10, "qlike_gain": -0.17395, "dm_p": 0.9969, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:17:36", "phase": "C-波动率", "round": 2, "task": "reg", "kind": "hgb", "h": 10, "qlike_gain": -0.03753, "dm_p": 0.90432, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:17:41", "phase": "C-波动率", "round": 3, "task": "reg", "kind": "hgb", "h": 10, "qlike_gain": -0.18299, "dm_p": 0.99861, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:17:44", "phase": "C-波动率", "round": 4, "task": "cls", "kind": "hgb", "h": 10, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:17:47", "phase": "C-波动率", "round": 5, "task": "cls", "kind": "hgb", "h": 20, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
+{"date": "2026-10-11 23:17:51", "phase": "C-波动率", "round": "holdout", "qlike_gain": 0.27438, "dm_p": 0.13308, "risk_auc": null, "is_holdout": true}

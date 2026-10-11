@@ -1,0 +1,18 @@
+# 行情缓存 (体积大, 可用 prefetch 脚本重新下载)
+cache/
+data/
+
+# 运行日志
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
