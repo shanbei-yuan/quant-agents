@@ -53,3 +53,8 @@
 {"date": "2026-10-11 23:17:44", "phase": "C-波动率", "round": 4, "task": "cls", "kind": "hgb", "h": 10, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
 {"date": "2026-10-11 23:17:47", "phase": "C-波动率", "round": 5, "task": "cls", "kind": "hgb", "h": 20, "qlike_gain": null, "dm_p": null, "risk_auc": null, "crit_rank": "低"}
 {"date": "2026-10-11 23:17:51", "phase": "C-波动率", "round": "holdout", "qlike_gain": 0.27438, "dm_p": 0.13308, "risk_auc": null, "is_holdout": true}
+{"date": "2026-10-11 23:23:24", "round": 1, "kind": "logit", "h": 5, "n_feats": 38, "acc": 0.517, "base": 0.5078, "auc": 0.5186, "crit_rank": "低"}
+{"date": "2026-10-11 23:23:44", "round": 2, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5126, "base": 0.5079, "auc": 0.5158, "crit_rank": "低"}
+{"date": "2026-10-11 23:24:54", "round": 3, "kind": "hgb", "h": 10, "n_feats": 26, "acc": 0.5091, "base": 0.5017, "auc": 0.5105, "crit_rank": "低"}
+{"date": "2026-10-11 23:25:16", "round": 4, "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5143, "base": 0.5016, "auc": 0.5208, "crit_rank": "低"}
+{"date": "2026-10-11 23:25:16", "round": "summary", "kind": "hgb", "h": 5, "n_feats": 26, "acc": 0.5143, "base": 0.5016, "auc": 0.5208, "crit_rank": "低", "is_best": true, "best_acc": 0.5143}

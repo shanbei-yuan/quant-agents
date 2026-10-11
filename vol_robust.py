@@ -158,6 +158,8 @@ def main():
     fig, axes = plt.subplots(1, 2, figsize=(15, 5.4))
     piv_n = tab.pivot(index="指数", columns="周期", values="留出集QLIKE改进(vs朴素)")
     piv_h = tab.pivot(index="指数", columns="周期", values="留出集QLIKE改进(vsHAR)")
+    order = [c for c in ["h=5", "h=10", "h=20"] if c in piv_n.columns]
+    piv_n, piv_h = piv_n[order], piv_h[order]
     for ax, piv, ttl in ((axes[0], piv_n, "相对朴素基准(过去20日波动率外推)"),
                          (axes[1], piv_h, "相对 HAR-RV 古典模型")):
         im = ax.imshow(piv.values, cmap="RdYlGn", vmin=-np.nanmax(np.abs(piv.values)),
