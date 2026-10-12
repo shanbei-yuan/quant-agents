@@ -1,0 +1,2360 @@
+[
+  {
+    "h": 5,
+    "kind": "hgb",
+    "feats": "all",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0838,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0079,
+      "mdd": -0.3503,
+      "sharpe": 0.465,
+      "calmar": 0.239,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.433,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0115,
+      "mdd": -0.1367,
+      "sharpe": 1.661,
+      "calmar": 3.167,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.0314,
+      "ew_ann": 0.0759,
+      "excess_ann": -0.0446,
+      "mdd": -0.5205,
+      "sharpe": 0.248,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0838,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0079,
+        "mdd": -0.3503,
+        "sharpe": 0.465,
+        "calmar": 0.239,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0719,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.004,
+        "mdd": -0.3591,
+        "sharpe": 0.416,
+        "calmar": 0.2,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0607,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0152,
+        "mdd": -0.3593,
+        "sharpe": 0.37,
+        "calmar": 0.169,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0483,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0276,
+        "mdd": -0.3735,
+        "sharpe": 0.319,
+        "calmar": 0.129,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.433,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0115,
+        "mdd": -0.1367,
+        "sharpe": 1.661,
+        "calmar": 3.167,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4075,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.037,
+        "mdd": -0.1443,
+        "sharpe": 1.625,
+        "calmar": 2.825,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.384,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0605,
+        "mdd": -0.141,
+        "sharpe": 1.58,
+        "calmar": 2.723,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3522,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0922,
+        "mdd": -0.1499,
+        "sharpe": 1.494,
+        "calmar": 2.35,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 5,
+    "kind": "hgb",
+    "feats": "nomkt",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0834,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0075,
+      "mdd": -0.3443,
+      "sharpe": 0.463,
+      "calmar": 0.242,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4279,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0166,
+      "mdd": -0.1355,
+      "sharpe": 1.645,
+      "calmar": 3.158,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.1353,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0594,
+      "mdd": -0.4472,
+      "sharpe": 0.593,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0834,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0075,
+        "mdd": -0.3443,
+        "sharpe": 0.463,
+        "calmar": 0.242,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0771,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0012,
+        "mdd": -0.3502,
+        "sharpe": 0.439,
+        "calmar": 0.22,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0656,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0103,
+        "mdd": -0.3541,
+        "sharpe": 0.392,
+        "calmar": 0.185,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0585,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0174,
+        "mdd": -0.3625,
+        "sharpe": 0.362,
+        "calmar": 0.161,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4279,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0166,
+        "mdd": -0.1355,
+        "sharpe": 1.645,
+        "calmar": 3.158,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4061,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0383,
+        "mdd": -0.1402,
+        "sharpe": 1.623,
+        "calmar": 2.897,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3698,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0746,
+        "mdd": -0.141,
+        "sharpe": 1.535,
+        "calmar": 2.623,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3486,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0959,
+        "mdd": -0.1541,
+        "sharpe": 1.482,
+        "calmar": 2.262,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 5,
+    "kind": "hgbdeep",
+    "feats": "all",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.084,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0081,
+      "mdd": -0.3519,
+      "sharpe": 0.465,
+      "calmar": 0.239,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4316,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0129,
+      "mdd": -0.1371,
+      "sharpe": 1.658,
+      "calmar": 3.149,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.0289,
+      "ew_ann": 0.0759,
+      "excess_ann": -0.047,
+      "mdd": -0.5199,
+      "sharpe": 0.24,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.084,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0081,
+        "mdd": -0.3519,
+        "sharpe": 0.465,
+        "calmar": 0.239,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0732,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0028,
+        "mdd": -0.3599,
+        "sharpe": 0.421,
+        "calmar": 0.203,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0622,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0137,
+        "mdd": -0.3705,
+        "sharpe": 0.376,
+        "calmar": 0.168,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0475,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0284,
+        "mdd": -0.3793,
+        "sharpe": 0.316,
+        "calmar": 0.125,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4316,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0129,
+        "mdd": -0.1371,
+        "sharpe": 1.658,
+        "calmar": 3.149,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4033,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0412,
+        "mdd": -0.1448,
+        "sharpe": 1.614,
+        "calmar": 2.786,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3865,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0579,
+        "mdd": -0.1483,
+        "sharpe": 1.586,
+        "calmar": 2.607,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3558,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0886,
+        "mdd": -0.1532,
+        "sharpe": 1.508,
+        "calmar": 2.323,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 5,
+    "kind": "hgbdeep",
+    "feats": "nomkt",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0861,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0102,
+      "mdd": -0.3432,
+      "sharpe": 0.475,
+      "calmar": 0.251,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4312,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0133,
+      "mdd": -0.1323,
+      "sharpe": 1.658,
+      "calmar": 3.258,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.0823,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0064,
+      "mdd": -0.4527,
+      "sharpe": 0.42,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0861,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0102,
+        "mdd": -0.3432,
+        "sharpe": 0.475,
+        "calmar": 0.251,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0814,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0055,
+        "mdd": -0.3378,
+        "sharpe": 0.457,
+        "calmar": 0.241,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0709,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0051,
+        "mdd": -0.3456,
+        "sharpe": 0.413,
+        "calmar": 0.205,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0654,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0105,
+        "mdd": -0.3497,
+        "sharpe": 0.39,
+        "calmar": 0.187,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4312,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0133,
+        "mdd": -0.1323,
+        "sharpe": 1.658,
+        "calmar": 3.258,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4022,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0422,
+        "mdd": -0.1448,
+        "sharpe": 1.608,
+        "calmar": 2.777,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3744,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.07,
+        "mdd": -0.1479,
+        "sharpe": 1.544,
+        "calmar": 2.531,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3544,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0901,
+        "mdd": -0.1549,
+        "sharpe": 1.501,
+        "calmar": 2.288,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 5,
+    "kind": "logit",
+    "feats": "all",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0802,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0043,
+      "mdd": -0.3508,
+      "sharpe": 0.451,
+      "calmar": 0.228,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4332,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0113,
+      "mdd": -0.1296,
+      "sharpe": 1.667,
+      "calmar": 3.342,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.075,
+      "ew_ann": 0.0759,
+      "excess_ann": -0.0009,
+      "mdd": -0.5352,
+      "sharpe": 0.384,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0802,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0043,
+        "mdd": -0.3508,
+        "sharpe": 0.451,
+        "calmar": 0.228,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0735,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0024,
+        "mdd": -0.3553,
+        "sharpe": 0.425,
+        "calmar": 0.207,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0656,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0103,
+        "mdd": -0.3582,
+        "sharpe": 0.394,
+        "calmar": 0.183,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0552,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0207,
+        "mdd": -0.3561,
+        "sharpe": 0.351,
+        "calmar": 0.155,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4332,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0113,
+        "mdd": -0.1296,
+        "sharpe": 1.667,
+        "calmar": 3.342,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4007,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0438,
+        "mdd": -0.1386,
+        "sharpe": 1.613,
+        "calmar": 2.892,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3819,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0625,
+        "mdd": -0.1299,
+        "sharpe": 1.6,
+        "calmar": 2.941,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3527,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0918,
+        "mdd": -0.1227,
+        "sharpe": 1.544,
+        "calmar": 2.875,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 5,
+    "kind": "logit",
+    "feats": "nomkt",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0811,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0052,
+      "mdd": -0.3497,
+      "sharpe": 0.455,
+      "calmar": 0.232,
+      "n": 334,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4376,
+      "ew_ann": 0.4445,
+      "excess_ann": -0.0068,
+      "mdd": -0.1278,
+      "sharpe": 1.683,
+      "calmar": 3.423,
+      "n": 113,
+      "x": 0.1,
+      "years": 2.26
+    },
+    "combo_dev": {
+      "ann": 0.1013,
+      "ew_ann": 0.0759,
+      "excess_ann": 0.0254,
+      "mdd": -0.4819,
+      "sharpe": 0.463,
+      "n": 334,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0811,
+        "ew_ann": 0.0759,
+        "excess_ann": 0.0052,
+        "mdd": -0.3497,
+        "sharpe": 0.455,
+        "calmar": 0.232,
+        "n": 334,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0733,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0026,
+        "mdd": -0.3537,
+        "sharpe": 0.424,
+        "calmar": 0.207,
+        "n": 334,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0644,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0115,
+        "mdd": -0.3624,
+        "sharpe": 0.389,
+        "calmar": 0.178,
+        "n": 334,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0541,
+        "ew_ann": 0.0759,
+        "excess_ann": -0.0218,
+        "mdd": -0.3559,
+        "sharpe": 0.347,
+        "calmar": 0.152,
+        "n": 334,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4376,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0068,
+        "mdd": -0.1278,
+        "sharpe": 1.683,
+        "calmar": 3.423,
+        "n": 113,
+        "x": 0.1,
+        "years": 2.26
+      },
+      {
+        "ann": 0.4003,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0442,
+        "mdd": -0.1401,
+        "sharpe": 1.613,
+        "calmar": 2.858,
+        "n": 113,
+        "x": 0.2,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3894,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.055,
+        "mdd": -0.1259,
+        "sharpe": 1.625,
+        "calmar": 3.093,
+        "n": 113,
+        "x": 0.3,
+        "years": 2.26
+      },
+      {
+        "ann": 0.3525,
+        "ew_ann": 0.4445,
+        "excess_ann": -0.0919,
+        "mdd": -0.122,
+        "sharpe": 1.545,
+        "calmar": 2.89,
+        "n": 113,
+        "x": 0.4,
+        "years": 2.26
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "hgb",
+    "feats": "all",
+    "x_dev_best": 0.2,
+    "dev_best": {
+      "ann": 0.0866,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0139,
+      "mdd": -0.3402,
+      "sharpe": 0.509,
+      "calmar": 0.255,
+      "n": 167,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4656,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0137,
+      "mdd": -0.1028,
+      "sharpe": 1.661,
+      "calmar": 4.529,
+      "n": 56,
+      "x": 0.2,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.1008,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0281,
+      "mdd": -0.348,
+      "sharpe": 0.527,
+      "n": 167,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0856,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0129,
+        "mdd": -0.3442,
+        "sharpe": 0.503,
+        "calmar": 0.249,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0866,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0139,
+        "mdd": -0.3402,
+        "sharpe": 0.509,
+        "calmar": 0.255,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0822,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0095,
+        "mdd": -0.3463,
+        "sharpe": 0.49,
+        "calmar": 0.237,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0734,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0007,
+        "mdd": -0.3507,
+        "sharpe": 0.451,
+        "calmar": 0.209,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4878,
+        "ew_ann": 0.4793,
+        "excess_ann": 0.0085,
+        "mdd": -0.1044,
+        "sharpe": 1.682,
+        "calmar": 4.673,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4656,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0137,
+        "mdd": -0.1028,
+        "sharpe": 1.661,
+        "calmar": 4.529,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4289,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0504,
+        "mdd": -0.0912,
+        "sharpe": 1.578,
+        "calmar": 4.706,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4072,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0721,
+        "mdd": -0.0876,
+        "sharpe": 1.553,
+        "calmar": 4.646,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "hgb",
+    "feats": "nomkt",
+    "x_dev_best": 0.2,
+    "dev_best": {
+      "ann": 0.0875,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0148,
+      "mdd": -0.3367,
+      "sharpe": 0.514,
+      "calmar": 0.26,
+      "n": 167,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4601,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0192,
+      "mdd": -0.0997,
+      "sharpe": 1.643,
+      "calmar": 4.613,
+      "n": 56,
+      "x": 0.2,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.1622,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0895,
+      "mdd": -0.3189,
+      "sharpe": 0.777,
+      "n": 167,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0856,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0129,
+        "mdd": -0.343,
+        "sharpe": 0.503,
+        "calmar": 0.25,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0875,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0148,
+        "mdd": -0.3367,
+        "sharpe": 0.514,
+        "calmar": 0.26,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0811,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0084,
+        "mdd": -0.3416,
+        "sharpe": 0.486,
+        "calmar": 0.237,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0785,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0058,
+        "mdd": -0.3416,
+        "sharpe": 0.476,
+        "calmar": 0.23,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4885,
+        "ew_ann": 0.4793,
+        "excess_ann": 0.0093,
+        "mdd": -0.1049,
+        "sharpe": 1.684,
+        "calmar": 4.658,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4601,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0192,
+        "mdd": -0.0997,
+        "sharpe": 1.643,
+        "calmar": 4.613,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4395,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0398,
+        "mdd": -0.0887,
+        "sharpe": 1.618,
+        "calmar": 4.957,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4106,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0687,
+        "mdd": -0.0907,
+        "sharpe": 1.566,
+        "calmar": 4.525,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "hgbdeep",
+    "feats": "all",
+    "x_dev_best": 0.2,
+    "dev_best": {
+      "ann": 0.0897,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.017,
+      "mdd": -0.3363,
+      "sharpe": 0.523,
+      "calmar": 0.267,
+      "n": 167,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4671,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0122,
+      "mdd": -0.1018,
+      "sharpe": 1.662,
+      "calmar": 4.591,
+      "n": 56,
+      "x": 0.2,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.1064,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0338,
+      "mdd": -0.3729,
+      "sharpe": 0.523,
+      "n": 167,
+      "k": 10,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0866,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0139,
+        "mdd": -0.3434,
+        "sharpe": 0.508,
+        "calmar": 0.252,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0897,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.017,
+        "mdd": -0.3363,
+        "sharpe": 0.523,
+        "calmar": 0.267,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.083,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0103,
+        "mdd": -0.3406,
+        "sharpe": 0.494,
+        "calmar": 0.244,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0802,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0075,
+        "mdd": -0.3434,
+        "sharpe": 0.482,
+        "calmar": 0.234,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4873,
+        "ew_ann": 0.4793,
+        "excess_ann": 0.008,
+        "mdd": -0.1054,
+        "sharpe": 1.684,
+        "calmar": 4.623,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4671,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0122,
+        "mdd": -0.1018,
+        "sharpe": 1.662,
+        "calmar": 4.591,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4371,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0422,
+        "mdd": -0.0865,
+        "sharpe": 1.612,
+        "calmar": 5.052,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4083,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0709,
+        "mdd": -0.0901,
+        "sharpe": 1.56,
+        "calmar": 4.534,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "hgbdeep",
+    "feats": "nomkt",
+    "x_dev_best": 0.3,
+    "dev_best": {
+      "ann": 0.09,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0173,
+      "mdd": -0.3314,
+      "sharpe": 0.527,
+      "calmar": 0.272,
+      "n": 167,
+      "x": 0.3,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4344,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0449,
+      "mdd": -0.0957,
+      "sharpe": 1.603,
+      "calmar": 4.54,
+      "n": 56,
+      "x": 0.3,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.2286,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.1559,
+      "mdd": -0.3333,
+      "sharpe": 0.946,
+      "n": 167,
+      "k": 10,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0856,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.013,
+        "mdd": -0.3418,
+        "sharpe": 0.504,
+        "calmar": 0.251,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.089,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0163,
+        "mdd": -0.3336,
+        "sharpe": 0.522,
+        "calmar": 0.267,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.09,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0173,
+        "mdd": -0.3314,
+        "sharpe": 0.527,
+        "calmar": 0.272,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0844,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0117,
+        "mdd": -0.3284,
+        "sharpe": 0.503,
+        "calmar": 0.257,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4803,
+        "ew_ann": 0.4793,
+        "excess_ann": 0.0011,
+        "mdd": -0.1061,
+        "sharpe": 1.659,
+        "calmar": 4.528,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4606,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0187,
+        "mdd": -0.098,
+        "sharpe": 1.65,
+        "calmar": 4.7,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4344,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0449,
+        "mdd": -0.0957,
+        "sharpe": 1.603,
+        "calmar": 4.54,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4162,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0631,
+        "mdd": -0.0945,
+        "sharpe": 1.571,
+        "calmar": 4.404,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "logit",
+    "feats": "all",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0821,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0094,
+      "mdd": -0.3486,
+      "sharpe": 0.488,
+      "calmar": 0.235,
+      "n": 167,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4742,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0051,
+      "mdd": -0.1026,
+      "sharpe": 1.656,
+      "calmar": 4.624,
+      "n": 56,
+      "x": 0.1,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.1332,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0605,
+      "mdd": -0.3472,
+      "sharpe": 0.644,
+      "n": 167,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0821,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0094,
+        "mdd": -0.3486,
+        "sharpe": 0.488,
+        "calmar": 0.235,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.081,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0083,
+        "mdd": -0.346,
+        "sharpe": 0.486,
+        "calmar": 0.234,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0769,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0042,
+        "mdd": -0.337,
+        "sharpe": 0.47,
+        "calmar": 0.228,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0696,
+        "ew_ann": 0.0727,
+        "excess_ann": -0.0031,
+        "mdd": -0.3359,
+        "sharpe": 0.438,
+        "calmar": 0.207,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4742,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0051,
+        "mdd": -0.1026,
+        "sharpe": 1.656,
+        "calmar": 4.624,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4428,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0364,
+        "mdd": -0.0971,
+        "sharpe": 1.606,
+        "calmar": 4.561,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4264,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0529,
+        "mdd": -0.0902,
+        "sharpe": 1.594,
+        "calmar": 4.727,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.3969,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0824,
+        "mdd": -0.0846,
+        "sharpe": 1.541,
+        "calmar": 4.689,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 10,
+    "kind": "logit",
+    "feats": "nomkt",
+    "x_dev_best": 0.1,
+    "dev_best": {
+      "ann": 0.0825,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0098,
+      "mdd": -0.3477,
+      "sharpe": 0.49,
+      "calmar": 0.237,
+      "n": 167,
+      "x": 0.1,
+      "years": 6.68
+    },
+    "hold_same_x": {
+      "ann": 0.4732,
+      "ew_ann": 0.4793,
+      "excess_ann": -0.0061,
+      "mdd": -0.1024,
+      "sharpe": 1.653,
+      "calmar": 4.622,
+      "n": 56,
+      "x": 0.1,
+      "years": 2.24
+    },
+    "combo_dev": {
+      "ann": 0.1712,
+      "ew_ann": 0.0727,
+      "excess_ann": 0.0985,
+      "mdd": -0.3041,
+      "sharpe": 0.79,
+      "n": 167,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.68
+    },
+    "dev_all": [
+      {
+        "ann": 0.0825,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0098,
+        "mdd": -0.3477,
+        "sharpe": 0.49,
+        "calmar": 0.237,
+        "n": 167,
+        "x": 0.1,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0797,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.007,
+        "mdd": -0.3435,
+        "sharpe": 0.48,
+        "calmar": 0.232,
+        "n": 167,
+        "x": 0.2,
+        "years": 6.68
+      },
+      {
+        "ann": 0.0768,
+        "ew_ann": 0.0727,
+        "excess_ann": 0.0042,
+        "mdd": -0.3372,
+        "sharpe": 0.471,
+        "calmar": 0.228,
+        "n": 167,
+        "x": 0.3,
+        "years": 6.68
+      },
+      {
+        "ann": 0.072,
+        "ew_ann": 0.0727,
+        "excess_ann": -0.0007,
+        "mdd": -0.3349,
+        "sharpe": 0.45,
+        "calmar": 0.215,
+        "n": 167,
+        "x": 0.4,
+        "years": 6.68
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4732,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0061,
+        "mdd": -0.1024,
+        "sharpe": 1.653,
+        "calmar": 4.622,
+        "n": 56,
+        "x": 0.1,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4415,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0378,
+        "mdd": -0.0973,
+        "sharpe": 1.601,
+        "calmar": 4.536,
+        "n": 56,
+        "x": 0.2,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4211,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0582,
+        "mdd": -0.0917,
+        "sharpe": 1.574,
+        "calmar": 4.591,
+        "n": 56,
+        "x": 0.3,
+        "years": 2.24
+      },
+      {
+        "ann": 0.4,
+        "ew_ann": 0.4793,
+        "excess_ann": -0.0792,
+        "mdd": -0.0853,
+        "sharpe": 1.547,
+        "calmar": 4.69,
+        "n": 56,
+        "x": 0.4,
+        "years": 2.24
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "hgb",
+    "feats": "all",
+    "x_dev_best": 0.2,
+    "dev_best": {
+      "ann": 0.0912,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0203,
+      "mdd": -0.322,
+      "sharpe": 0.514,
+      "calmar": 0.283,
+      "n": 84,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.4766,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0192,
+      "mdd": -0.082,
+      "sharpe": 1.84,
+      "calmar": 5.815,
+      "n": 27,
+      "x": 0.2,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1196,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0488,
+      "mdd": -0.3707,
+      "sharpe": 0.544,
+      "n": 84,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0863,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0154,
+        "mdd": -0.3338,
+        "sharpe": 0.491,
+        "calmar": 0.258,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0912,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0203,
+        "mdd": -0.322,
+        "sharpe": 0.514,
+        "calmar": 0.283,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0893,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0184,
+        "mdd": -0.3177,
+        "sharpe": 0.508,
+        "calmar": 0.281,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0853,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0144,
+        "mdd": -0.3198,
+        "sharpe": 0.491,
+        "calmar": 0.267,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4914,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0044,
+        "mdd": -0.0836,
+        "sharpe": 1.813,
+        "calmar": 5.878,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4766,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0192,
+        "mdd": -0.082,
+        "sharpe": 1.84,
+        "calmar": 5.815,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4413,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0545,
+        "mdd": -0.0871,
+        "sharpe": 1.774,
+        "calmar": 5.068,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4195,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0763,
+        "mdd": -0.0884,
+        "sharpe": 1.758,
+        "calmar": 4.744,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "hgb",
+    "feats": "nomkt",
+    "x_dev_best": 0.3,
+    "dev_best": {
+      "ann": 0.0907,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0198,
+      "mdd": -0.3296,
+      "sharpe": 0.514,
+      "calmar": 0.275,
+      "n": 84,
+      "x": 0.3,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.4404,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0554,
+      "mdd": -0.0859,
+      "sharpe": 1.776,
+      "calmar": 5.129,
+      "n": 27,
+      "x": 0.3,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1462,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0753,
+      "mdd": -0.2777,
+      "sharpe": 0.655,
+      "n": 84,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0831,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0122,
+        "mdd": -0.3357,
+        "sharpe": 0.478,
+        "calmar": 0.248,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0889,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.018,
+        "mdd": -0.3266,
+        "sharpe": 0.506,
+        "calmar": 0.272,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0907,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0198,
+        "mdd": -0.3296,
+        "sharpe": 0.514,
+        "calmar": 0.275,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0897,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0189,
+        "mdd": -0.3164,
+        "sharpe": 0.509,
+        "calmar": 0.284,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4939,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0018,
+        "mdd": -0.0851,
+        "sharpe": 1.82,
+        "calmar": 5.807,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.473,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0227,
+        "mdd": -0.0814,
+        "sharpe": 1.817,
+        "calmar": 5.811,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4404,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0554,
+        "mdd": -0.0859,
+        "sharpe": 1.776,
+        "calmar": 5.129,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4243,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0714,
+        "mdd": -0.0867,
+        "sharpe": 1.767,
+        "calmar": 4.896,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "hgbdeep",
+    "feats": "all",
+    "x_dev_best": 0.2,
+    "dev_best": {
+      "ann": 0.0889,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0181,
+      "mdd": -0.324,
+      "sharpe": 0.507,
+      "calmar": 0.274,
+      "n": 84,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.4815,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0143,
+      "mdd": -0.0802,
+      "sharpe": 1.845,
+      "calmar": 6.004,
+      "n": 27,
+      "x": 0.2,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1764,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.1055,
+      "mdd": -0.3369,
+      "sharpe": 0.73,
+      "n": 84,
+      "k": 20,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0848,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0139,
+        "mdd": -0.3337,
+        "sharpe": 0.487,
+        "calmar": 0.254,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0889,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0181,
+        "mdd": -0.324,
+        "sharpe": 0.507,
+        "calmar": 0.274,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0875,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0166,
+        "mdd": -0.3209,
+        "sharpe": 0.502,
+        "calmar": 0.273,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.089,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0181,
+        "mdd": -0.3058,
+        "sharpe": 0.509,
+        "calmar": 0.291,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4951,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0007,
+        "mdd": -0.078,
+        "sharpe": 1.829,
+        "calmar": 6.348,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4815,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0143,
+        "mdd": -0.0802,
+        "sharpe": 1.845,
+        "calmar": 6.004,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4554,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0404,
+        "mdd": -0.0837,
+        "sharpe": 1.807,
+        "calmar": 5.442,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4243,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0714,
+        "mdd": -0.088,
+        "sharpe": 1.775,
+        "calmar": 4.824,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "hgbdeep",
+    "feats": "nomkt",
+    "x_dev_best": 0.4,
+    "dev_best": {
+      "ann": 0.1021,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0312,
+      "mdd": -0.3076,
+      "sharpe": 0.563,
+      "calmar": 0.332,
+      "n": 84,
+      "x": 0.4,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.4325,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0633,
+      "mdd": -0.089,
+      "sharpe": 1.782,
+      "calmar": 4.86,
+      "n": 27,
+      "x": 0.4,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1544,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0835,
+      "mdd": -0.3566,
+      "sharpe": 0.664,
+      "n": 84,
+      "k": 10,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0861,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0153,
+        "mdd": -0.3321,
+        "sharpe": 0.491,
+        "calmar": 0.259,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0892,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0184,
+        "mdd": -0.3241,
+        "sharpe": 0.507,
+        "calmar": 0.275,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0953,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0244,
+        "mdd": -0.3105,
+        "sharpe": 0.534,
+        "calmar": 0.307,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.1021,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0312,
+        "mdd": -0.3076,
+        "sharpe": 0.563,
+        "calmar": 0.332,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4994,
+        "ew_ann": 0.4958,
+        "excess_ann": 0.0036,
+        "mdd": -0.0784,
+        "sharpe": 1.849,
+        "calmar": 6.37,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4745,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0212,
+        "mdd": -0.082,
+        "sharpe": 1.825,
+        "calmar": 5.784,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4414,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0543,
+        "mdd": -0.0866,
+        "sharpe": 1.778,
+        "calmar": 5.096,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4325,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0633,
+        "mdd": -0.089,
+        "sharpe": 1.782,
+        "calmar": 4.86,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "logit",
+    "feats": "all",
+    "x_dev_best": 0.3,
+    "dev_best": {
+      "ann": 0.0855,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0146,
+      "mdd": -0.3154,
+      "sharpe": 0.497,
+      "calmar": 0.271,
+      "n": 84,
+      "x": 0.3,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.4451,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0507,
+      "mdd": -0.0895,
+      "sharpe": 1.772,
+      "calmar": 4.971,
+      "n": 27,
+      "x": 0.3,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1722,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.1013,
+      "mdd": -0.3666,
+      "sharpe": 0.666,
+      "n": 84,
+      "k": 10,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0802,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0094,
+        "mdd": -0.336,
+        "sharpe": 0.467,
+        "calmar": 0.239,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0826,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0118,
+        "mdd": -0.3281,
+        "sharpe": 0.481,
+        "calmar": 0.252,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0855,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0146,
+        "mdd": -0.3154,
+        "sharpe": 0.497,
+        "calmar": 0.271,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0823,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0114,
+        "mdd": -0.3084,
+        "sharpe": 0.486,
+        "calmar": 0.267,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4884,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0074,
+        "mdd": -0.0845,
+        "sharpe": 1.818,
+        "calmar": 5.778,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4661,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0297,
+        "mdd": -0.0887,
+        "sharpe": 1.801,
+        "calmar": 5.252,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4451,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0507,
+        "mdd": -0.0895,
+        "sharpe": 1.772,
+        "calmar": 4.971,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4308,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.065,
+        "mdd": -0.0823,
+        "sharpe": 1.781,
+        "calmar": 5.232,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  },
+  {
+    "h": 20,
+    "kind": "logit",
+    "feats": "nomkt",
+    "x_dev_best": 0.3,
+    "dev_best": {
+      "ann": 0.0853,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.0144,
+      "mdd": -0.316,
+      "sharpe": 0.497,
+      "calmar": 0.27,
+      "n": 84,
+      "x": 0.3,
+      "years": 6.72
+    },
+    "hold_same_x": {
+      "ann": 0.446,
+      "ew_ann": 0.4958,
+      "excess_ann": -0.0498,
+      "mdd": -0.0889,
+      "sharpe": 1.77,
+      "calmar": 5.018,
+      "n": 27,
+      "x": 0.3,
+      "years": 2.16
+    },
+    "combo_dev": {
+      "ann": 0.1774,
+      "ew_ann": 0.0709,
+      "excess_ann": 0.1065,
+      "mdd": -0.3854,
+      "sharpe": 0.683,
+      "n": 84,
+      "k": 10,
+      "x": 0.2,
+      "years": 6.72
+    },
+    "dev_all": [
+      {
+        "ann": 0.0814,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0105,
+        "mdd": -0.3361,
+        "sharpe": 0.472,
+        "calmar": 0.242,
+        "n": 84,
+        "x": 0.1,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0826,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0117,
+        "mdd": -0.328,
+        "sharpe": 0.48,
+        "calmar": 0.252,
+        "n": 84,
+        "x": 0.2,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0853,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.0144,
+        "mdd": -0.316,
+        "sharpe": 0.497,
+        "calmar": 0.27,
+        "n": 84,
+        "x": 0.3,
+        "years": 6.72
+      },
+      {
+        "ann": 0.0819,
+        "ew_ann": 0.0709,
+        "excess_ann": 0.011,
+        "mdd": -0.3083,
+        "sharpe": 0.484,
+        "calmar": 0.265,
+        "n": 84,
+        "x": 0.4,
+        "years": 6.72
+      }
+    ],
+    "hold_all": [
+      {
+        "ann": 0.4836,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0122,
+        "mdd": -0.0891,
+        "sharpe": 1.789,
+        "calmar": 5.426,
+        "n": 27,
+        "x": 0.1,
+        "years": 2.16
+      },
+      {
+        "ann": 0.4641,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0317,
+        "mdd": -0.0884,
+        "sharpe": 1.799,
+        "calmar": 5.252,
+        "n": 27,
+        "x": 0.2,
+        "years": 2.16
+      },
+      {
+        "ann": 0.446,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0498,
+        "mdd": -0.0889,
+        "sharpe": 1.77,
+        "calmar": 5.018,
+        "n": 27,
+        "x": 0.3,
+        "years": 2.16
+      },
+      {
+        "ann": 0.428,
+        "ew_ann": 0.4958,
+        "excess_ann": -0.0678,
+        "mdd": -0.0839,
+        "sharpe": 1.771,
+        "calmar": 5.103,
+        "n": 27,
+        "x": 0.4,
+        "years": 2.16
+      }
+    ]
+  }
+]
