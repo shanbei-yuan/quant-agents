@@ -1,0 +1,102 @@
+{
+  "capital": 3000.0,
+  "target_vol": 0.12,
+  "cur_vol": 0.17881068524072558,
+  "position": 0.7,
+  "picks": [
+    {
+      "code": "sh510300",
+      "name": "沪深300ETF",
+      "price": 4.38,
+      "lots": 1,
+      "shares": 100,
+      "cost": 438.0
+    },
+    {
+      "code": "sh512100",
+      "name": "中证1000ETF",
+      "price": 2.875,
+      "lots": 5,
+      "shares": 500,
+      "cost": 1437.5
+    }
+  ],
+  "cash": 1124.5,
+  "round_trip_cost": 20.0,
+  "variance_drag": [
+    {
+      "k": 10,
+      "arith_ann": 0.2149,
+      "geo_ann": 0.1763,
+      "ann_vol": 0.3226
+    },
+    {
+      "k": 20,
+      "arith_ann": 0.223,
+      "geo_ann": 0.1918,
+      "ann_vol": 0.3047
+    },
+    {
+      "k": 50,
+      "arith_ann": 0.2246,
+      "geo_ann": 0.1974,
+      "ann_vol": 0.2931
+    },
+    {
+      "k": 100,
+      "arith_ann": 0.2213,
+      "geo_ann": 0.1944,
+      "ann_vol": 0.29
+    },
+    {
+      "k": 300,
+      "arith_ann": 0.2198,
+      "geo_ann": 0.1934,
+      "ann_vol": 0.2874
+    },
+    {
+      "k": "全池",
+      "arith_ann": 0.219,
+      "geo_ann": 0.1927,
+      "ann_vol": 0.2869
+    }
+  ],
+  "etf_quotes": {
+    "sh510300": {
+      "name": "沪深300ETF华泰柏瑞",
+      "price": 4.38,
+      "prev": 4.385,
+      "amount": 1458060000.0
+    },
+    "sh510500": {
+      "name": "中证500ETF南方",
+      "price": 7.181,
+      "prev": 7.282,
+      "amount": 1530460000.0
+    },
+    "sh512100": {
+      "name": "中证1000ETF南方",
+      "price": 2.875,
+      "prev": 2.909,
+      "amount": 1426740000.0
+    },
+    "sz159915": {
+      "name": "创业板ETF易方达",
+      "price": 3.023,
+      "prev": 3.064,
+      "amount": 3089730000.0
+    },
+    "sh510880": {
+      "name": "红利ETF华泰柏瑞",
+      "price": 3.439,
+      "prev": 3.431,
+      "amount": 266320000.0
+    },
+    "sh518880": {
+      "name": "黄金ETF华安",
+      "price": 8.625,
+      "prev": 8.617,
+      "amount": 1536880000.0
+    }
+  }
+}
