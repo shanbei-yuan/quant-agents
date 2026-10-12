@@ -1,0 +1,51 @@
+{
+  "capital": 3000.0,
+  "data_date": "2026-10-09",
+  "cur_vol": 0.17881068524072558,
+  "position": 0.7,
+  "validation": {
+    "seg_start": "2025-09-05",
+    "seg_end": "2026-09-16",
+    "rank_ic": 0.067,
+    "ic_pos": 0.656,
+    "top10_mean": 1.3277,
+    "pool_mean": 1.484,
+    "excess_mean": -0.1563
+  },
+  "etf": [
+    {
+      "code": "sh510500",
+      "name": "中证500ETF南方",
+      "price": 7.181,
+      "lots": 1,
+      "shares": 100,
+      "cost": 718.1
+    },
+    {
+      "code": "sh512100",
+      "name": "中证1000ETF南方",
+      "price": 2.875,
+      "lots": 2,
+      "shares": 200,
+      "cost": 575.0
+    },
+    {
+      "code": "sh510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "price": 4.38,
+      "lots": 1,
+      "shares": 100,
+      "cost": 438.0
+    },
+    {
+      "code": "sh510880",
+      "name": "红利ETF华泰柏瑞",
+      "price": 3.439,
+      "lots": 1,
+      "shares": 100,
+      "cost": 343.9
+    }
+  ],
+  "stock": [],
+  "cash": 925.0
+}
